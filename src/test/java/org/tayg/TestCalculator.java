@@ -11,7 +11,7 @@ public class TestCalculator {
         Calculator calculator = new Calculator();
         int n1 = 3;
         int n2 = 4;
-        int trueResult = 7;
+        int trueResult = 8;
         int res = calculator.increment(n1, n2);
         assertEquals(res, trueResult);
     }
